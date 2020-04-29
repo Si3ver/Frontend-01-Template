@@ -26,7 +26,7 @@
 
 + **固有对象(150+)**
   - [Intrinsic Objects](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-well-known-intrinsic-objects)
-+ **原生对象**
++ **原生对象** （无法用纯JS实现，无法用 class/extend 语法继承）
   1. 基本类型 Boolean String Number Symbol Object
   2. 基础功能和数据结构 Array Date RegExp Promise Proxy Map WeakMap Set WeakSet Function
   3. 错误类型 Error EvalError RangeError ReferenceError SyntaxError TypeError URIError
