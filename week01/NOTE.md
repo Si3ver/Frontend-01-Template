@@ -1,6 +1,32 @@
 # Week1，总结
 
-回顾知识脉络图谱
+## 上课资料
+
+**参考链接**
++ [W3C技术报告](https://www.w3.org/TR/)
++ [Web Hypertext Application Technology Working Group (WHATWG)](https://whatwg.org/)
++ [MDN文档](https://developer.mozilla.org/)
++ https://docs.microsoft.com/
++ https://developer.apple.com/
+
+**HTML elements**
++ [whatwg](https://html.spec.whatwg.org/multipage/semantics.html#semantics)
+
+**OO vs OB**
++ JavaScript是基于原型链的面向对象编程语言
++ `new`、`class`
+
+**MVC**
++ model
++ view
++ controller
+
+**随堂作业**
+
+把面向对象这个概念用追溯法写一篇博文，写在自己的博客中，例如：博客园、稀土、掘金等，不限平台；你也可以写到 GitHub 的 Issues 里。把链接发到班级群里，跟大家分享。（不作为日常作业统计）
+把预习内容的前端目录整理出来，和 winter 老师课件里的脑图或者课程目录做对比，思考一下为什么会有差别？
+
+## 回顾知识脉络图谱
 
 1. 语言基础
   + JavaScript
