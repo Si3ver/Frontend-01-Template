@@ -1,5 +1,15 @@
 # JavaScript
 
+## JS基础知识
+
+1. 函数
+2. 预编译、作用域、闭包
+3. 原型、原型链、继承
+4. 数组、对象的操作方法
+5. ES6新特性
+6. ES6面向对象
+7. ES6异步编程
+
 ## 一、JS类型
 
 ![](./img/JS强制类型转换.png)
@@ -30,9 +40,16 @@ const res2 = Object.getOwnPropertyDescriptor(o, 'b')
 console.log(res1, res2)
 ```
 
-+ Object.assign
++ Object.defineProperty
++ Object.defineProperties
++ Object.getOwnPropertyDescriptor
 + Object.create
-
++ Object.assign
++ Object.entries (es2017)
++ Object.fromEntries (es2019)
++ Object.freeze
++ Object.seal
++ Object.preventExtensions
 
 ## 三、JS的原型系统
 
