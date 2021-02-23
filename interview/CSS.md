@@ -60,3 +60,25 @@
 flex实现一个三点的骰子
 
 [3点骰子🌰](./css-demo-07.html)
+
+### 7. 水平居中
+
+1. inline元素： text-align: center
+2. block元素： margin: auto
+3. absolute元素： left: 50% + margin-left 负值 （需要知道元素宽度）
+
+[水平居中🌰](./css-demo-08.html)
+### 8. 垂直居中
+
+1. inline元素：设置 line-height 等于 height
+2. absolute元素：top: 50% + margin-top 负值  (需要知道元素高度)
+3. absolute元素：transform(-50%, -50%)
+4. absolute元素：top\right\bottom\left = 0 + margin: auto
+
+[垂直居中🌰](./css-demo-09.html)
+
+### 9. line-height继承注意点
+
+百分比行高，继承的是计算后的数值
+
+
