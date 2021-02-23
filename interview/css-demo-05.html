@@ -5,7 +5,6 @@
     min-width: 550px;
   }
   header, footer {
-    clear: both;
     background-color: #f1f1f1;
   }
   main {
@@ -32,10 +31,16 @@
     width: 150px;
     margin-right: -150px;
   }
+
+  .clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
 </style>
 
 <header>header</header>
-<div id="container">
+<div id="container" class="clearfix">
   <main class="column">main</main>
   <div id="left" class="column">left</div>
   <div id="right" class="column">right</div>

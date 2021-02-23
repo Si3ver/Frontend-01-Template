@@ -48,11 +48,11 @@
 **手写clearfix**
 
 ```css
-.clearfix:after {
-  content: '';
-  display: table;
-  clear: both;
-}
+  .clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
 ```
 
 ### 6. flex
